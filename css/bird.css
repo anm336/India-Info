@@ -1,0 +1,38 @@
+body{
+  background-color: #44C19B;
+}
+.imgsize{
+  height: 225px;
+  width: 325px;
+}
+
+.row{
+  margin-top: 30px;
+}
+
+h1{
+  font-family: "brush script";
+  font-size: 100px;
+  color: #481F5C;
+  margin-right: 80px;
+}
+.navbarcolor{
+  background-color: #c3f7f4;
+}
+.tbmargin{
+  width: 1500px;
+  font-size: 20px;
+  margin-top: 25px;
+  margin-left: 25px;
+  background-color: white;
+}
+.info{
+  background-color: #c3f7f4;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 25px 25px 25px 25px;
+  font-size: 25px;
+  color: #481F5C;
+}

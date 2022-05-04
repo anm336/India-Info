@@ -1,0 +1,137 @@
+body{
+  background-color: #44C19B;
+}
+
+.outerdiv{
+  margin-bottom: 10px;
+  height: 100px;
+  text-align: center;
+  background-color: #44C19B;
+}
+.title{
+  font-size: 70px;
+  font-family: sans-serif;
+}
+/* The typing effect */
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+.moving{
+  text-align: center;
+  font-size: 50px;
+  font-family: sans-serif;
+  color: #481F5C;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+.IN{
+  color: #fb2d05;
+}
+.D{
+  color: #051ffb;
+}
+.IA{
+  color: #147a15;
+}
+.seconddiv{
+  height: 600px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: #c3f7f4;
+}
+h2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
+  color: #481F5C;
+}
+.img{
+  height: 550px;
+  padding-top: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.details{
+  background-color: blue;
+  height: 100px;
+  text-align: center;
+  width: 100px;
+}
+
+.navbarcolor{
+  background-color: #c3f7f4;
+}
+.flag{
+  margin-top:10px;
+  margin-bottom: 10px;
+  height: 200px;
+  width: 300px;
+}
+
+.bdesc{
+  font-family: "sans-serif";
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #481F5C;
+}
+.histheading{
+  font-family: "sans-serif";
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 30px;
+  color: #481F5C;
+}
+.briefhist{
+  background-color: #c3f7f4;
+  height: 300px;
+  width: 1250px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 25px 25px 25px 25px;
+  font-size: 25px;
+  color: #481F5C;
+}
+.imgset{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 35%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.linksize{
+  margin-left:50px;
+  font-size: 20px;
+}
+.mapset{
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.linksize2{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left:1000px;
+  font-size: 30px;
+}
